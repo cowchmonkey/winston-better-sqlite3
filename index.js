@@ -19,7 +19,7 @@ module.exports = class Sqlite3 extends Transport {
         // the 'log' table always has 'id' and 'timestamp'
         const cols = [
             "id INTEGER PRIMARY KEY", 
-            "timestamp INTEGER DEFAULT (strftime('%s','now'))"
+            "timestamp DATETIME DEFAULT CURRENT_TIMESTAMP"
         ];
         
         // add user-provided columns to the table and create the table
