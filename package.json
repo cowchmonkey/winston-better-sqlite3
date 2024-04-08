@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/punkish/winston-better-sqlite3.git"
+    "url": "git+https://github.com/cowchmonkey/winston-better-sqlite3.git"
   },
   "keywords": [
     "winston",
@@ -19,14 +19,14 @@
   "author": "Puneet Kishor",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/punkish/winston-better-sqlite3/issues"
+    "url": "https://github.com/cowchmonkey/winston-better-sqlite3/issues"
   },
   "homepage": "https://github.com/punkish/winston-better-sqlite3#readme",
   "dependencies": {
-    "better-sqlite3": "^7.5.1",
-    "winston-transport": "^4.5.0"
+    "better-sqlite3": "^9.4.5",
+    "winston-transport": "^4.7.0"
   },
   "devDependencies": {
-    "dts-gen": "^0.6.0"
+    "dts-gen": "^0.10.1"
   }
 }
